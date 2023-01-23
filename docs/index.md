@@ -7,7 +7,7 @@ hero:
   name: LatinaDocs
   tagline: A fine docs for LalatinaHub
   image:
-    src: /assets/hero.png
+    src: ./hero.png
     alt: Darkness Face
   actions:
     - theme: brand
