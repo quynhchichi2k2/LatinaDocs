@@ -1,3 +1,9 @@
-# Introduction
+# Pengenalan
 
-This guide will tell you how to get nodes via api
+Halaman ini akan ngasih tau kamu bagaimana cara untuk berkomunikasi dengan API
+
+---
+
+Buat apa ?
+
+- Ambil akun VPN

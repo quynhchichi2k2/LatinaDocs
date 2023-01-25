@@ -1,32 +1,32 @@
 ---
-title: Welcome
-lang: en-US
+title: Selamat Datang
+lang: id-ID
 layout: home
 
 hero:
   name: LatinaDocs
-  tagline: A fine docs for LalatinaHub
+  tagline: Dokumentasi untuk LalatinaHub
   image:
-    src: ./hero.png
+    src: /hero.png
     alt: Darkness Face
   actions:
     - theme: brand
-      text: Read Docs
-      link: /wip
+      text: Baca Dokumentasi
+      link: /guide/
     - theme: alt
-      text: Get API
+      text: Dapatkan API
       link: /api/
 features:
   - icon: ⚡
-    title: Fast
-    details: Even you'll forget that you're using VPN
+    title: Cepat
+    details: Bahkan kamu akan lupa kalo lagi make VPN
   - icon: ⏲
     title: Up To Date
-    details: Nodes updated periodically
+    details: Akun VPN di-update secara berkala
   - icon: 👘
     title: API
-    details: Select nodes that suits you well
+    details: Pilih akun VPN yang cocok untuk kamu
   - icon: 🧹
-    title: No Garbage
-    details: 98% nodes server is up
+    title: Gaada Sampah
+    details: 98% server vpn bisa dipake
 ---

@@ -4,7 +4,7 @@
 
 export default {
   title: "LatinaDocs",
-  description: "A fine docs for LalatinaHub",
+  description: "Dokumentasi untuk LalatinaHub",
   themeConfig: {
     socialLinks: [{ icon: "github", link: "https://github.com/LalatinaHub" }],
     nav: [
@@ -21,23 +21,55 @@ export default {
           },
         ],
       },
+      {
+        text: "Our Team",
+        link: "/team",
+      },
     ],
     sidebar: [
       {
-        text: "Guide",
+        text: "Panduan",
         collapsible: true,
-        items: [{ text: "WIP", link: "/wip" }],
+        items: [
+          { text: "Pengenalan", link: "/guide/" },
+          {
+            text: "Mobile",
+            items: [
+              {
+                text: "Dasar",
+                link: "/guide/mobile/",
+              },
+              {
+                text: "Aplikasi Populer",
+                link: "/guide/mobile/apps",
+              },
+              {
+                text: "How to",
+                items: [
+                  {
+                    text: "Scan Bug",
+                    link: "/guide/mobile/how/scan_bug",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            text: "Desktop",
+            link: "/guide/desktop/",
+          },
+        ],
       },
       {
         text: "API",
         collapsible: true,
         items: [
           {
-            text: "Introduction",
+            text: "Pengenalan",
             link: "/api/",
           },
           {
-            text: "Basic",
+            text: "Dasar",
             link: "/api/basic",
           },
           {
@@ -56,5 +88,18 @@ export default {
       message: 'Released under the <a href="https://github.com/LalatinaHub/License/blob/main/LICENSE">MIT License</a>.',
       copyright: 'by <a href="https://github.com/dickymuliafiqri">Dicky Mulia Fiqri</a>',
     },
+    editLink: {
+      pattern: "https://github.com/LalatinaHub/LatinaDocs/edit/master/docs/:path",
+      text: "Edit this page on GitHub",
+    },
+    i18nRouting: true,
   },
+  locales: {
+    root: {
+      label: "Bahasa",
+      lang: "id",
+    },
+  },
+
+  lastUpdated: true,
 };

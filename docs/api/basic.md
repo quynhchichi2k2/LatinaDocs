@@ -1,7 +1,16 @@
-# Basic
+# Dasar
 
-Base API URL is https://fool.azurewebsites.net
+URL dasar untuk API ini adalah https://fool.azurewebsites.net
 
-Which means you need to go to endpoint to get what you desire
+Yang berarti kamu harus menuju ke `endpoint` untuk mendapatkan apa yang kamu inginkan
 
-Example: You want to get nodes, so you need to /get endpoint which mean https://fool.azurewebsites.net/get followed up by available queries
+Contoh: Kamu ingin ngambil nodes (Akun VPN), berarti kamu harus menuju ke `endpoint` `/get`. Dengan kata lain, hasil URL akhirnya adalah `URL DASAR + ENDPOINT` (https://fool.azurewebsites.net/get) diikuti dengan kueri yang tersedia
+
+---
+
+::: tip Note
+
+Hanya endpoint `/get` yang tersedia untuk saat ini  
+Kemungkinan akan ditambah untuk kedepannya, atau mungkin juga dihapus
+
+:::
