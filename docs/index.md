@@ -19,7 +19,7 @@ hero:
 features:
   - icon: ⚡
     title: Fast
-    details: Even you'll forget that you're using vpn
+    details: Even you'll forget that you're using VPN
   - icon: ⏲
     title: Up To Date
     details: Nodes updated periodically

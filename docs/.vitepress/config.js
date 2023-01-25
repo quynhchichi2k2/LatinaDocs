@@ -25,10 +25,12 @@ export default {
     sidebar: [
       {
         text: "Guide",
+        collapsible: true,
         items: [{ text: "WIP", link: "/wip" }],
       },
       {
         text: "API",
+        collapsible: true,
         items: [
           {
             text: "Introduction",
@@ -50,5 +52,9 @@ export default {
         ],
       },
     ],
+    footer: {
+      message: 'Released under the <a href="https://github.com/LalatinaHub/License/blob/main/LICENSE">MIT License</a>.',
+      copyright: 'by <a href="https://github.com/dickymuliafiqri">Dicky Mulia Fiqri</a>',
+    },
   },
 };
