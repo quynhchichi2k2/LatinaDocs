@@ -11,7 +11,7 @@ export default {
 }
 </script>
 
-# Pengenalan Singkat
+# Get
 
 Endpoint ini digunakan untuk mengambil akun VPN
 

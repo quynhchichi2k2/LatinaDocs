@@ -1,4 +1,8 @@
-# Yang Diperlukan
+# Dasar
+
+Hal dasar yang harus diketahui/dipersiapkan untuk mengikuti tutorial
+
+## Yang Diperlukan
 
 Jawaban singkat: HP/Handphone  
 Jawaban panjang: HP, tapi untuk saat ini kami hanya melakukan percobaan/experiment menggunakan HP dengan sistem operasi Android. F U IOS.

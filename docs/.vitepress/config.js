@@ -50,6 +50,19 @@ export default {
                     text: "Scan Bug",
                     link: "/guide/mobile/how/scan_bug",
                   },
+                  {
+                    text: "BFM",
+                    items: [
+                      {
+                        text: "Persiapan",
+                        link: "/guide/mobile/how/bfm/prepare",
+                      },
+                      {
+                        text: "Clash",
+                        link: "/guide/mobile/how/bfm/clash",
+                      },
+                    ],
+                  },
                 ],
               },
             ],
@@ -80,6 +93,15 @@ export default {
                 link: "/api/get",
               },
             ],
+          },
+        ],
+      },
+      {
+        text: "Lainnya",
+        items: [
+          {
+            text: "Bantuan",
+            link: "/support",
           },
         ],
       },

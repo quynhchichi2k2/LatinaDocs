@@ -1,4 +1,8 @@
-# Pengenalan
+# Scan Bug
+
+Tutorial untuk melakukan scanning domain/subdomain
+
+## Pengenalan
 
 Tutorial ini ditujukan untuk mendapatkan host SNI/CDN yang bisa digunakan pada TKP kalian masing-masing.
 Tool yang digunakan tergolong sederhana, apabila kalian menginginkan hasil yang lebih maksimal, gunakan tool yang lebih <a href="https://github.com/Guild-Net/wsee">advance</a>
