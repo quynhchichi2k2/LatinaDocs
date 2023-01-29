@@ -22,6 +22,10 @@ export default {
         ],
       },
       {
+        text: "Log",
+        link: "/log"
+      },
+      {
         text: "Our Team",
         link: "/team",
       },
