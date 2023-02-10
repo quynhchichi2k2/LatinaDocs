@@ -30,6 +30,7 @@ Endpoint ini digunakan untuk mengambil akun VPN
 |   sni   |       Isi VPN dengan host SNI       |   Yes    |  &sni=sni.host  |
 |   cdn   |       Isi VPN dengan host CDN       |   Yes    |  &cdn=cdn.host  |
 |  mode   |         Pilih mode koneksi          |   Yes    |    &mode=cdn    |                                                               `cdn` dan `sni`                                                                |
+|  limit  |          Batasi jumlah VPN          |    No    |    &limit=10    |
 
 ::: info
 Key yang mendukung input lebih dari 1 (Multiple), dipisahkan menggunakan tanda koma (,)  
