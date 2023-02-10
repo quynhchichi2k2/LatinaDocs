@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/LalatinaHub/LatinaDocs#readme",
   "dependencies": {
-    "vitepress": "^1.0.0-alpha.40",
+    "vitepress": "^1.0.0-alpha.45",
     "vue": "^3.2.45"
   }
 }

@@ -1,8 +1,6 @@
-/**
- * @type {import('vitepress').UserConfig}
- */
+import { defineConfig } from "vitepress";
 
-export default {
+export default defineConfig({
   title: "LatinaDocs",
   description: "Dokumentasi untuk LalatinaHub",
   themeConfig: {
@@ -25,11 +23,15 @@ export default {
         text: "Our Team",
         link: "/team",
       },
+      {
+        text: "Log",
+        link: "log/",
+      },
     ],
     sidebar: [
       {
         text: "Panduan",
-        collapsible: true,
+        collapsed: true,
         items: [
           { text: "Pengenalan", link: "/guide/" },
           {
@@ -75,7 +77,7 @@ export default {
       },
       {
         text: "API",
-        collapsible: true,
+        collapsed: true,
         items: [
           {
             text: "Pengenalan",
@@ -122,6 +124,5 @@ export default {
       lang: "id",
     },
   },
-
   lastUpdated: true,
-};
+});
