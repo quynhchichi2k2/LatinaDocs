@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "LatinaDocs",
   description: "Dokumentasi untuk LalatinaHub",
-  cleanUrls: true,
+  cleanUrls: false,
   themeConfig: {
     socialLinks: [{ icon: "github", link: "https://github.com/LalatinaHub" }],
     nav: [
@@ -12,17 +12,13 @@ export default defineConfig({
         items: [
           {
             text: "API",
-            link: "/api/index.html",
+            link: "/api/index",
           },
         ],
       },
       {
         text: "Our Team",
-        link: "/team.html",
-      },
-      {
-        text: "Log",
-        link: "/log",
+        link: "/team",
       },
     ],
     sidebar: [
@@ -30,35 +26,35 @@ export default defineConfig({
         text: "Panduan",
         collapsed: true,
         items: [
-          { text: "Pengenalan", link: "/guide/index.html" },
+          { text: "Pengenalan", link: "/guide/index" },
           {
             text: "Mobile",
             items: [
               {
                 text: "Dasar",
-                link: "/guide/mobile/index.html",
+                link: "/guide/mobile/index",
               },
               {
                 text: "Aplikasi Populer",
-                link: "/guide/mobile/apps.html",
+                link: "/guide/mobile/apps",
               },
               {
                 text: "How to",
                 items: [
                   {
                     text: "Scan Bug",
-                    link: "/guide/mobile/how/scan_bug.html",
+                    link: "/guide/mobile/how/scan_bug",
                   },
                   {
                     text: "BFM",
                     items: [
                       {
                         text: "Persiapan",
-                        link: "/guide/mobile/how/bfm/prepare.html",
+                        link: "/guide/mobile/how/bfm/prepare",
                       },
                       {
                         text: "Clash",
-                        link: "/guide/mobile/how/bfm/clash.html",
+                        link: "/guide/mobile/how/bfm/clash",
                       },
                     ],
                   },
@@ -68,7 +64,7 @@ export default defineConfig({
           },
           {
             text: "Desktop",
-            link: "/guide/desktop/index.html",
+            link: "/guide/desktop/index",
           },
         ],
       },
@@ -78,18 +74,18 @@ export default defineConfig({
         items: [
           {
             text: "Pengenalan",
-            link: "/api/index.html",
+            link: "/api/index",
           },
           {
             text: "Dasar",
-            link: "/api/basic.html",
+            link: "/api/basic",
           },
           {
             text: "Endpoint",
             items: [
               {
                 text: "Get",
-                link: "/api/get.html",
+                link: "/api/get",
               },
             ],
           },
@@ -100,7 +96,7 @@ export default defineConfig({
         items: [
           {
             text: "Bantuan",
-            link: "/support.html",
+            link: "/support",
           },
         ],
       },
