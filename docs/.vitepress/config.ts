@@ -3,7 +3,6 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "LatinaDocs",
   description: "Dokumentasi untuk LalatinaHub",
-  cleanUrls: false,
   themeConfig: {
     socialLinks: [{ icon: "github", link: "https://github.com/LalatinaHub" }],
     nav: [
@@ -12,7 +11,7 @@ export default defineConfig({
         items: [
           {
             text: "API",
-            link: "/api/index",
+            link: "/api/",
           },
         ],
       },
@@ -26,13 +25,13 @@ export default defineConfig({
         text: "Panduan",
         collapsed: true,
         items: [
-          { text: "Pengenalan", link: "/guide/index" },
+          { text: "Pengenalan", link: "/guide/" },
           {
             text: "Mobile",
             items: [
               {
                 text: "Dasar",
-                link: "/guide/mobile/index",
+                link: "/guide/mobile/",
               },
               {
                 text: "Aplikasi Populer",
@@ -64,7 +63,7 @@ export default defineConfig({
           },
           {
             text: "Desktop",
-            link: "/guide/desktop/index",
+            link: "/guide/desktop/",
           },
         ],
       },
@@ -74,7 +73,7 @@ export default defineConfig({
         items: [
           {
             text: "Pengenalan",
-            link: "/api/index",
+            link: "/api/",
           },
           {
             text: "Dasar",
