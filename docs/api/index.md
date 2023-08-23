@@ -1,13 +1,1 @@
-# API
-
-URL khusus yang dipersiapkan untuk berinteraksi dengan server
-
-## Pengenalan
-
-Halaman ini akan ngasih tau kamu bagaimana cara untuk berkomunikasi dengan API
-
----
-
-Buat apa ?
-
-- Ambil akun VPN
+http://fool.azurewebsites.net/get?cdn=104.18.3.198&cc=SG,ID&mode=cdn&format=clash&pass=your
